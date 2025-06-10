@@ -1,0 +1,261 @@
+id,nombre,url,zona_corporal,implemento,articularidad,lateralidad,musculo
+1,Press Unilateral Doble con mancuerna ( 2 mancuernas),https://youtube.com/shorts/8B8Hd4SGjIM?feature=share,tren superior,mancuerna,biarticular,unilateral doble,hombro
+2,Press Unilateral Simple con mancuerna de pie,https://youtu.be/KJYoAl4jF2A,tren superior,mancuerna,biarticular,unilateral simple,hombro
+3,Press Unilateral simple para hombro sentado,https://youtu.be/rCUU_4THJa8,tren superior,mancuerna,biarticular,unilateral simple,hombro
+4,Press Unilateral simple con Kettlebell,,tren superior,kettlebell,biarticular,unilateral simple,hombro
+5,Press Unilateral Doble con Kettlebell ( 2 Kettlebells),,tren superior,kettlebell,biarticular,unilateral doble,hombro
+6,Vuelos Frontales con mancuernas  ( 2 mancuernas),https://youtu.be/uQCLSBmMkI8,tren superior,mancuerna,uniarticular,unilateral doble,hombro
+7,Vuelos laterales Unilateral Doble con Mancuernas ( 2 mancuernas),https://youtu.be/j1gVTKUjfwo,tren superior,mancuerna,uniarticular,unilateral doble,hombro
+8,Vuelos laterales Unialterales Simple con mancuerna,https://youtu.be/c5DO9CJCh3U,tren superior,mancuerna,uniarticular,unilateral simple,hombro
+9,Vuelos Posteriores con Mancuernas ( 2 mancuernas),https://youtu.be/48651IUM_sU,tren superior,mancuerna,uniarticular,unilateral doble,hombro
+10,Empuje Bilateral con Banda Elastica Cerrada,https://youtube.com/shorts/UctNS-YtCKs?feature=share,tren superior,banda elastica,biarticular,bilateral,hombro
+11,Empuje Unilateral Simple con Mazo,https://youtu.be/1PpZBK9k6K4,tren superior,mazo,biarticular,unilateral simple,hombro
+12,Mano a mano con Mazo en el aire,https://youtu.be/SV6S6hdF_os,tren superior,mazo,multiarticular,unilateral doble,hombro
+13,Isometria en elevacion de brazo con mazo,https://youtu.be/VQkLxjIr69Q,tren superior,mazo,isometrico,unilateral simple,hombro
+14,Press bilateral con Kettlebell de pie,https://youtu.be/A3DdGPFxNd0,tren superior,kettlebell,biarticular,bilateral,hombro
+15,"Press Unilateral simple con kettlebell con agarre invertido ",https://youtu.be/RNslv5YxKe8,tren superior,kettlebell,biarticular,unilateral simple,hombro
+16,Press Unilateral simple con Kettlebell de pie con agarre normal,https://youtu.be/Lpdt5qs_ptY,tren superior,kettlebell,biarticular,unilateral simple,hombro
+17,Press Unilateral doble con mancuerna en banco plano,https://youtu.be/5ReS3-tgrfk,tren superior,mancuerna,biarticular,unilateral doble,pecho
+18,Press Bilateral con barra en banco plano,,tren superior,barra,biarticular,bilateral,pecho
+19,Press unilateral doble con mancuerna en banco inclinado ( 2 mancuernas),,tren superior,mancuerna,biarticular,unilateral doble,pecho
+20,Press Bilateral con barra en banco inclinado,,tren superior,barra,biarticular,bilateral,pecho
+21,Aperturas con mancuernas en banco plano ( 2 mancuernas),https://youtu.be/SQ_7ygqFVNY,tren superior,mancuerna,uniarticular,unilateral doble,pecho
+22,Aperturas con mancuernas en banco inclinado ( 2 mancuernas),,tren superior,mancuerna,uniarticular,unilateral doble,pecho
+23,Press Unilateral simple con Kettlebell en banco plano,,tren superior,kettlebell,biarticular,unilateral simple,pecho
+24,Press Unilateral Doble con Kettlebell en banco plano ( 2 kettlebells),,tren superior,kettlebell,biarticular,unilateral doble,pecho
+25,Extensión de codo para Triceps Unilateral,https://youtube.com/shorts/8PnWY9svi58?feature=share,tren superior,mancuerna,uniarticular,unilateral simple,triceps
+26,Extension de codo Bilateral con mancuerna,https://youtu.be/Gp-6Y_sb2Bw,tren superior,mancuerna,uniarticular,bilateral,triceps
+27,Patada de Burro con mancuerna Unilateral,https://youtu.be/jLReUHTog-A,tren superior,mancuerna,uniarticular,unilateral simple,triceps
+28,Extension de triceps en polea con agarre Prono,,tren superior,polea,,,triceps
+29,Extension de codo en polea con agarre supino,,tren superior,polea,,,triceps
+30,Extension de codo en polea con agarre con soga,,tren superior,polea,,,triceps
+31,Extension de codo en banco plano con barra,,tren superior,barra,uniarticular,bilateral,triceps
+32,Extensión de codo con Bandas Elasticas abiertas Unilateral Simple,https://youtube.com/shorts/J5197AGFDlU?feature=share,tren superior,banda elastica,uniarticular,unilateral simple,triceps
+33,Extension de codo con Banda Elasticas Cerradas Bilateral,https://youtu.be/Jqy6akFbLIE,tren superior,banda elastica,biarticular,bilateral,triceps
+34,Extensión de codo con Mazo,https://youtu.be/kMo6w1UweSI,tren superior,mazo,biarticular,unilateral simple,triceps
+35,Extensión de codo bilateral con Kettlebell,https://youtu.be/q0duLgvo4Fw,tren superior,kettlebell,uniarticular,bilateral,triceps
+36,Curl de Biceps con mancuerna unilateral sentado en silla,https://youtube.com/shorts/uqAg0Luq7vE?feature=share,tren superior,mancuerna,uniarticular,unilateral simple,biceps
+37,Curl de Biceps con mancuerna sentado en banca,https://youtu.be/hIIEwI8Vqz8,tren superior,mancuerna,uniarticular,unilateral simple,biceps
+38,Curl de Biceps con mancuerna Unilateral Doble ( 2 mancuernas),,tren superior,mancuerna,uniarticular,unilateral doble,biceps
+39,Curl de Biceps en banco Scott con barra,,tren superior,barra,,,biceps
+40,Curl de Biceps en banco Scott con mancuerna,,tren superior,mancuerna,,,biceps
+41,Curl de Biceps con Mazo,https://youtu.be/gDADUNgUVpg,tren superior,mazo,uniarticular,unilateral simple,biceps
+42,Curl de Biceps en Banco Predicador,,tren superior,,,,biceps
+43,Curl de Brazos con Bandas Elasticas,https://youtube.com/shorts/RfzAEixp9wU?feature=share,tren superior,banda elastica,multiarticular,biarticular,biceps
+44,Elevación de mancuernas Unilateral Doble para Trapecio,https://youtu.be/DvN9C8ZyeBE,tren superior,mancuerna,biarticular,unilateral doble,trapecio
+45,Elevación de barra Bilateral para Trapecios,,tren superior,barra,,,trapecio
+46,No me importa con Mancuernas Unilateral Doble ( 2 mancuernas),https://youtu.be/rfrtIhPm3c4,tren superior,mancuerna,uniarticular,unilateral doble,trapecio
+47,No me importa con mancuerna Bilateral,https://youtu.be/I4z5EEX9Ebg,tren superior,mancuerna,uniarticular,bilateral,trapecio
+48,Pull Over con Mancuerna,https://youtu.be/0sz2QS2DXrs,tren superior,mancuerna,uniarticular,bilateral,espalda
+49,Pull Over con Polea,,tren superior,polea,uniarticular,bilateral,espalda
+50,"Polea Tras Nuca ",,tren superior,polea,biarticular,bilateral,espalda
+51,Polea al Pecho con agarre Prono,,tren superior,polea,biarticular,bilateral,espalda
+52,Polea al pecho con agarre Neutro,,tren superior,polea,biarticular,bilateral,espalda
+53,Polea al pecho con agarre Supino,,tren superior,polea,biarticular,bilateral,espalda
+54,Despegues con Barra Olimpica,,tren superior,barra,multiarticular,bilateral,espalda
+55,Despegues con Kettlebell,,tren superior,kettlebell,multiarticular,unilateral doble,espalda
+56,Remo bajo en Polea EN MAQUINA,,tren superior,polea,biarticular,bilateral,espalda
+57,Remo unilateral con Kettlebell,,tren superior,kettlebell,biarticular,unilateral simple,espalda
+58,Remo Unilateral Doble con Kettlebell ( 2 kettlebells),,tren superior,kettlebell,biarticular,unilateral doble,espalda
+59,Remo con mancuerna Unilateral en banco plano,https://youtu.be/IYo9abhtQ7I,tren superior,mancuerna,biarticular,unilateral simple,espalda
+60,Remo con mancuerna unilateral doble ( 2 mancuernas),https://youtu.be/b3XAsv1i7-Y,tren superior,mancuerna,biarticular,unilateral doble,espalda
+61,Remo con banda de Resistencia Bilateral agarre a la banda,https://youtu.be/2S5jZEH2EDA,tren superior,banda elastica,biarticular,bilateral,espalda
+62,Remo con banda de Resistencia Bilateral agarre a un palo,https://youtu.be/6-vrUl7lKrA,tren superior,banda elastica,biarticular,bilateral,espalda
+63,Remo con barra en T,,tren superior,barra,biarticular,bilateral,espalda
+64,Curl de antebrazos con mancuerna Unilateral,,tren superior,mancuerna,uniarticular,unilateral simple,antebrazos
+65,Curl de antebrazos con manuerna Unilateral Doble,https://youtube.com/shorts/0MpigOHiSaU?feature=share,tren superior,mancuerna,uniarticular,unilateral doble,antebrazos
+66,Curl con Mazo Unilateral,,tren superior,mazo,uniarticular,unilateral simple,antebrazos
+67,Rotar la mancuerna con 1 mano,https://youtube.com/shorts/r-lVD1gfZrY?feature=share,tren superior,mancuerna,uniarticular,unilateral simple,antebrazos
+68,Rotar la Kettlebell con 1 mano,,tren superior,kettlebell,uniarticular,unilateral simple,antebrazos
+69,Sostenerse de la barra de Dominadas a dos brazos Bilateral,,tren superior,,,,antebrazos
+70,Sostenerse de la barra de Domimadas a UN SOLO BRAZO UNILATERAL,,tren superior,,,,antebrazos
+71,Curl tipo Martillo agarre neutro con Kettlebell,,tren superior,,,,antebrazos
+72,Curl de antebrazos con agarre especial con mazo,https://youtu.be/2c2La_0G6U4,tren superior,,,,antebrazos
+73,Giro de la muñeca con mazo para antebrazos,https://youtu.be/FCpAv7J3Ukw,tren superior,,,,antebrazos
+74,Rotación de Kettlbell sobre mesa,https://youtu.be/mdrzNlp4p_M,tren superior,,,,antebrazos
+75,Ranitas,https://youtube.com/shorts/kRUeVAztBPM?feature=share,tren inferior,,,,cuadriceps
+76,Sentadillas Clasicas,https://youtube.com/shorts/DtFbZ9Z_AHo?feature=share,tren inferior,,,,cuadriceps
+77,Sentadillas con Salto,https://youtube.com/shorts/i12H7UIWVRE?feature=share,tren inferior,,,,cuadriceps
+78,Sentadilla Búlgara,https://youtube.com/shorts/Dcd96xYhWvs?feature=share,tren inferior,,,,cuadriceps
+79,Sentadilla búlgara con peso extra,,tren inferior,,,,cuadriceps
+80,Estocadas,https://youtube.com/shorts/Tj4ZBad4GZU?feature=share,tren inferior,,,,cuadriceps
+81,Estocadas Caminadas,https://youtube.com/shorts/81CpmkVc06w?feature=share,tren inferior,,,,cuadriceps
+82,Estocadas con Salto Amplias,https://youtube.com/shorts/8-BuxHRH0l0?feature=share,tren inferior,,,,cuadriceps
+83,Estocadas con Salto,https://youtube.com/shorts/atOUCtKJXyI?feature=share,tren inferior,,,,cuadriceps
+84,Caminata Agazapado,https://youtu.be/ROsyATVLGw4,tren inferior,,,,cuadriceps
+85,Caminata Agazapado Lateralizado,https://youtu.be/BAWKW0xX_-w,tren inferior,,,,cuadriceps
+86,Sentadilla Pistol,,tren inferior,,,,cuadriceps
+87,Sentadilla Isometrica,https://youtube.com/shorts/u7cWSM8JCjM?feature=share,tren inferior,,,,cuadriceps
+88,Sentadilla Isometrica con apoyo en la muralla para la espalda,https://youtube.com/shorts/zFkS1TeyNew?feature=share,tren inferior,,,,cuadriceps
+89,Sentadilla con CoreBag,,tren inferior,,,,cuadriceps
+90,Sentadilla con Mancuernas,,tren inferior,,,,cuadriceps
+91,Sentadilla con Kettlebell,https://youtu.be/8E0aDKNfbB8,tren inferior,,,,cuadriceps
+92,Sentadilla con barra olimpica,,tren inferior,,,,cuadriceps
+93,Sentadilla Hack,,tren inferior,,,,cuadriceps
+94,Prensa declinado,,tren inferior,,,,cuadriceps
+95,Prensa Vertical,,tren inferior,,,,cuadriceps
+96,Sentadilla con crossfit ball,,tren inferior,,,,cuadriceps
+97,"Sentadilla Sumo (solo para aductores de la pierna) ",,tren inferior,,,,cuadriceps
+98,Sillón de Cuadriceps,,tren inferior,,,,cuadriceps
+99,Sentadilla con barra en los hombros (Trabaja mucho la Rodilla y tener mucha destreza en los hombros),,tren inferior,,,,cuadriceps
+100,Estocadas Lateralizadas Caminando,,tren inferior,,,,cuadriceps
+101,Sentadilla con Mazo,https://youtu.be/kCtsCWnWhY4,tren inferior,,,,cuadriceps
+102,Camilla de Femorales Unilateral (a una sola pierna),,tren inferior,,,,femorales
+103,Camilla de Femorales Bilateral (con las dos piernas),,tren inferior,,,,femorales
+104,Peso Muerto con barra,,tren inferior,,,,femorales
+105,Puente con las dos piernas,https://youtu.be/744G_jzVlmk,tren inferior,,,,femorales
+106,Puente a una pierna,https://youtu.be/BUIXqAK1L-8,tren inferior,,,,femorales
+107,Puente a una pierna sobre una silla,https://youtu.be/WqIfv6P6rrw,tren inferior,,,,femorales
+108,Flexión de piernas de cubito ventral con banda elasticas,,tren inferior,,,,femorales
+109,Elevacion de tobillos Bilateral,https://youtube.com/shorts/tn52Y1uleOU?feature=share,tren inferior,,,,pantorrillas
+110,"Elavación de tobillos Unilateral ",https://youtube.com/shorts/H5NHQyWy8o4?feature=share,tren inferior,,,,pantorrillas
+111,Elevacion de Tobillos Bilateral con Peso Extra,,tren inferior,,,,pantorrillas
+112,Elevación de tobillos en Prensa declinado,,tren inferior,,,,pantorrillas
+113,Elevación de tobillos en superficie inclinada,,tren inferior,,,,pantorrillas
+114,Elevación de tobillos en superficie inclinada con peso extra,,tren inferior,,,,pantorrillas
+115,Elevacion de tobillos sentado,,tren inferior,,,,pantorrillas
+116,Elevacion de tobillos sentado con peso extra,,tren inferior,,,,pantorrillas
+117,Cuadrupedia elevación de pierna,https://youtu.be/SE7wizS3D80,tren inferior,,,,gluteos
+118,Cuadrupedia elevacion de pie con tobilleras,,tren inferior,,,,gluteos
+119,"Cuadrupedia Rotación de pierna uniarticular ",https://youtu.be/mUbIxU-975g,tren inferior,,,,gluteos
+120,Cuadrupedia Rotación de pierna con tobillera,https://youtu.be/UTL7Weq6ZOU,tren inferior,,,,gluteos
+121,Cuadrupedia Medio Mundo,https://youtu.be/FHvBJmArN_s,tren inferior,,,,gluteos
+122,Cuadrupedia Medio Mundo con tobilleras,https://youtu.be/K_NzunTLrMc,tren inferior,,,,gluteos
+123,Cuadrupedia Patada con la pierna,https://youtu.be/p-8bX65c5rM,tren inferior,,,,gluteos
+124,Cuadrupedia Patada con la pierna con Tobilleras,https://youtu.be/vtjBCC-MPyo,tren inferior,,,,gluteos
+125,Plancha elevar una pierna para gluteos,,tren inferior,,,,gluteos
+126,Plancha elevar una pierna para gluteos con Tobilleras,,tren inferior,,,,gluteos
+127,Extensión de pierna estando de pie (solo mueve la cadera),https://youtu.be/0WpruTQRBdQ,tren inferior,,,,gluteos
+128,Extensión de pierna estando de pie con tobillera (solo mueve la cadera),,tren inferior,,,,gluteos
+129,Sentadilla a una pierna haciendo fuerza con el talón,,tren inferior,,,,gluteos
+130,Abduccion lateral de pierna,https://youtu.be/d0CuIgPRBEk,tren inferior,,,,gluteos
+131,Abducción de pierna con tobillera estando de pie,,tren inferior,,,,gluteos
+132,Patada Lateralizada con tobillera,,tren inferior,,,,gluteos
+133,Prensa a una pierna,,tren inferior,,,,gluteos
+134,Extensión de pierna con banda elastica,,,gluteos,,,tren inferior
+135,Subidas al banco con 1 pie,https://youtube.com/shorts/DHuAAAHO_70?feature=share,tren inferior,,,,gluteos
+136,Cuadrupedia Ventilador,https://youtu.be/xZdU8VSaSu4,tren inferior,,,,gluteos
+137,Peso Muerto con barra,,core,,,,lumbares
+138,Superman,https://youtu.be/gv2ciGq8tu4,core,,,,lumbares
+139,Superman con las piernas en el piso,https://youtu.be/kdmFPNoXHB8,core,,,,lumbares
+140,Superman sosteniendo un peso con los brazos en isometrica,,core,,,,lumbares
+141,Superman sosteniendo un peso con movimiento,,core,,,,lumbares
+142,Superman haciendo angelitos con discos en las manos,,core,,,,lumbares
+143,Abdominales Clasicas,,core,,,,abdominales
+144,Abdominales Codo toca Rodilla,https://youtu.be/nf2MAS0AFOU,core,,,,abdominales
+145,Plancha Invertida,https://youtu.be/dPFFER-iDkk,core,,,,abdominales
+146,Plancha con 4 Apoyos,https://youtu.be/eLSkcAGbS74,core,,,,abdominales
+147,Plancha con 3 apoyos,https://youtu.be/4eqzHOTiVx4,core,,,,abdominales
+148,Plancha con 2 apoyos,https://youtu.be/IK_ZzL9YgCo,core,,,,abdominales
+149,Plancha lateral con 2 pies en el suelo,https://youtu.be/JlBaW8jOphk,core,,,,abdominales
+150,Plancha lateral con 1 pie en el suelo,https://youtu.be/kgaA5IqumoU,core,,,,abdominales
+151,Press palof con banda elastica,,core,,,,abdominales
+152,Hollow Rock de cubito dorsal,,core,,,,abdominales
+153,Bicicleta de cubito dorsal,https://youtu.be/S7HupBE4GnE,core,,,,abdominales
+154,Tijeras de cubito dorsal,https://youtu.be/JL1q--fucG0,core,,,,abdominales
+155,Flexion y extension de dos piernas de cubito dorsal,,core,,,,abdominales
+156,Giro con medBall de cubito dorsal,,core,,,,abdominales
+157,Giro con Mazo estando de pie,https://youtu.be/M2PbTZne-zE,core,,,,abdominales
+158,Flexion y extension de dos piernas de cubito dorsal con Tobilleras,,core,,,,abdominales
+159,Flexion y extension de dos piernas de cubito dorsal con medball a los pies,,core,,,,abdominales
+160,Bicicleta de cubito dorsal con tobilleras,,core,,,,abdominales
+161,Plancha Invertida con tobilleras,,core,,,,abdominales
+162,Flexiones de Brazos con codo cercano al cuerpo,https://youtu.be/8DlJaOrC6l8,funcional,,,,pecho-triceps
+163,Flexiones de Brazos con rodillas en el piso,https://youtu.be/YB4b5Nb29Rw,funcional,,,,pecho-triceps
+164,Flexiones de Brazos con codo lejos del cuerpo,,funcional,,,,pecho-triceps
+165,Flexiones de Brazos con manos de diamante,https://youtu.be/d7moc-bUS3E,funcional,,,,pecho-triceps
+166,Flexiones de Brazos con despegues,https://youtu.be/6i2EbRiBg4Q,funcional,,,,pecho-triceps
+167,Flexiones de Brazos con despegues aplaudiendo,https://youtu.be/0h-DB3k835k,funcional,,,,pecho-triceps
+168,Flexiones de brazos con elevacion de piernas,https://youtu.be/gGGzuOo15pY,funcional,,,,pecho-triceps-lumbares
+169,Flexiones de Brazos con 1 sola pierna en el piso,https://youtu.be/q4mpGQvP9XU,funcional,,,,pecho-triceps-gluteo
+170,Flexiones alternadas,https://youtu.be/0lr8iWPU5IU,funcional,,,,pecho-triceps
+171,Giro del Cuerpo con los Brazos,https://youtu.be/rSlfl8hY7Is,funcional,,,,hombro-pecho-espalda
+172,Remo en Isometría de cubito Ventral,https://youtu.be/vbAwFgyyiZY,funcional,,,,hombro-espalda
+173,Extensión de brazos Alternados,https://youtu.be/9X376F41YeM,funcional,,,,hombro-espalda
+174,Mano toca codo alternado,https://youtu.be/NoUKAaLbhfg,funcional,,,,hombro-biceps
+175,Dominadas clasicas,https://youtube.com/shorts/Qq7ov9wgeCQ?feature=share,funcional,,,,espalda
+176,Dominadas con agarre Neutro mas amplias,https://youtube.com/shorts/RiHhHCaoQtg?feature=share,funcional,,,,espalda
+177,Dominadas con agarre neutro,https://youtube.com/shorts/j25PI5QqKrQ?feature=share,funcional,,,,espalda
+178,Dominadas con agarre supino,https://youtube.com/shorts/2f9akYm7X1U?feature=share,funcional,,,,espalda
+179,Dominadas con agarre mixto,https://youtube.com/shorts/T06hf4t8HXo?feature=share,funcional,,,,espalda
+180,Retracción Escapular en barra de dominadas,https://youtube.com/shorts/4z42v3Obny8?feature=share,funcional,,,,espalda
+181,Dominadas con agarre prono manos juntas,,funcional,,,,espalda
+182,Toes to Bar,https://youtube.com/shorts/NGi6RMOIIWE?feature=share,funcional,,,,espalda-core
+183,Elevación de rodillas colgado de la barra,https://youtube.com/shorts/p9VXto0lqJc?feature=share,funcional,,,,espalda-core
+184,Swing amplio con una sola mano con Kettlebell,https://youtu.be/ktqI9Ip9-_E,funcional,,,,
+185,Swing alternado con Kettlebell,https://youtu.be/7q8zE7EwusI,funcional,,,,
+186,Swing bilateral con Kettlebell a dos manos hasta arriba de la cabeza,https://youtu.be/aPQfRs94_L0,funcional,,,,
+187,Swing alternado en pirueta con Kettlebell,https://youtu.be/s3nBf8gykCk,funcional,,,,
+188,Swing a una mano en pirueta 2 con Kettlebell,https://youtu.be/s3nBf8gykCk,funcional,,,,
+189,Pase mano a mano con Kettlebell,https://youtu.be/46PmJRYiRI8,funcional,,,,
+190,Vuelos a una mano con Kettlebell,,funcional,,,,
+191,Halo alrededor de la cabeza con Kettlebell,https://youtu.be/B5gKgp6wIB8,funcional,,,,
+192,Alrededor del mundo con Kettlebell,https://youtu.be/hBlf8qTCA1I,funcional,,,,
+193,Pino con los brazos,https://youtube.com/shorts/Fp1nb90Atvo?feature=share,funcional,,,,
+194,Burpees Sin Salto,https://youtu.be/p2XOW93Us6o,funcional,,,,
+195,Burpees Con Salto,https://youtu.be/Z17IGiFn7Cg,funcional,,,,
+196,Extensión de codo en paralelas altas,https://youtube.com/shorts/YY6szUBsl3Q?feature=share,funcional,,,,
+197,Isometría en Paralelas Altas,https://youtube.com/shorts/DO6GTrs_HwI?feature=share,funcional,,,,
+198,Elevación de Rodillas en Paralelas Altas,,funcional,,,,
+199,Caminata en Paralelas Altas,,funcional,,,,
+200,Flexiones de Brazos en paralelas bajas,,funcional,,,,
+201,L-Sit en paralelas bajas,,funcional,,,,
+202,Front - Level en barra para dominadas,,funcional,,,,
+203,Colgarse en barra para dominadas,,funcional,,,,
+204,Empujes sobre una barra horizontal intermedia sobre una silla,https://youtube.com/shorts/P647s3Y9wQU?feature=share,funcional,,,,
+205,Dominadas Australianas,https://youtube.com/shorts/IR_b-UvFyUk?feature=share,funcional,,,,
+206,Dominadas en Anillas de Gimnasia,,funcional,,,,
+207,Empujes en TRX,,funcional,,,,
+208,Remos en TRX,,funcional,,,,
+209,Flexion y Extension de rodillas de cubito ventral en TRX,,funcional,,,,
+210,HammerStrike con Mazo,,funcional,,,,
+211,Volteo al Neumatico,,funcional,,,,
+212,Press para hombros con Neumatico,,funcional,,,,
+213,Empuje al AUTO,,funcional,,,,
+214,Alrededor del mundo con Crossfit ball,https://youtu.be/3scdvof7Ag0,funcional,,,,
+215,Lanzamiento contra el suelo con balón Crossfit,https://youtu.be/-qMzHR3AVeY,funcional,,,,
+216,Giro del tronco con balón crossfit,https://youtu.be/dB2wUEci1Uc,funcional,,,,
+217,Sentadilla con lanzamiento de balón crossfit,https://youtu.be/3CW2s_IlLKY,funcional,,,,
+218,Press unilateral simple para hombros con Crossfit Ball,https://youtu.be/5wajBdWEQCw,funcional,,,,
+219,Sentadilla con crossfit ball,https://youtu.be/0NtnvT8xny4,funcional,,,,
+220,Sentadilla con Salto con Crossfit Ball,https://youtu.be/Nsgb58tVaMo,funcional,,,,
+221,Giro del tronco con Crossfit Ball de cubito dorsal,https://youtu.be/9E3XI9hUOYw,funcional,,,,
+222,Flexiones de brazos con movimiento a la crossfit ball,https://youtu.be/wHTtmwcyXnI,funcional,,,,
+223,Levantamiento Turco con Kettlebell,,funcional,,,,
+224,Flexiones de brazos con elevación de mancuernas en la concentrica,https://youtube.com/shorts/A-KL3fFfO84?feature=share,funcional,,,,
+225,Isometrica de extensión de brazo con Mazo,,funcional,,,,
+226,Flexion de Codo en Banca,https://youtube.com/shorts/3_AnvGQDatw?feature=share,funcional,,,,
+227,Golpe con mazo a la tierra,https://youtu.be/7VYgOvMNzRM,funcional,,,,
+228,Golpe ascendente con Mazo,https://youtu.be/Vqc6fysXNwg,funcional,,,,
+229,Salto al cajon con las dos piernas frontal,,funcional,,,,
+230,Salto al cajon con una sola pierna,,funcional,,,,
+231,Salto al cajon lateral con las dos piernas,,funcional,,,,
+232,Salto al cajon con peso,,funcional,,,,
+233,Aleteo con ambos brazos,https://youtube.com/shorts/GY55V6bf53I?feature=share,cardiovascular,,,,
+234,Rodilla toca Codo,https://youtube.com/shorts/Cejf-eQWJ6M?feature=share,cardiovascular,,,,
+235,Limpiaparabrisas con Salto,https://youtube.com/shorts/WM-ScaaeM6o?feature=share,cardiovascular,,,,
+236,Salto un pie atras,,,,,,cardiovascular
+237,Salto Lateralizado,https://youtube.com/shorts/cc0m1o2mYCk?feature=share,cardiovascular,,,,
+238,Jumping Jacks,https://youtube.com/shorts/W1xWW28gcNM?feature=share,cardiovascular,,,,
+239,Salto a la cuerda con Desplazamiento,https://youtu.be/ZzSg5mlFanU,cardiovascular,,,,
+240,Salto a la cuerda con cruce de cuerda,https://youtu.be/1CvlTiBhB5E,cardiovascular,,,,
+241,Salto a la cuerda abriendo y cerrando los pies,https://youtu.be/q3gfZ6NM-x0,cardiovascular,,,,
+242,Salto a la cuerda lateralizado a un pie,https://youtu.be/-nZX0gElB0Y,cardiovascular,,,,
+243,Salto a la cuerda frontal con la punta de los pies,https://youtu.be/O-jZYTcCpm4,cardiovascular,,,,
+244,Salto a la cuerda con un solo pie,https://youtu.be/cBkxiQkHHfE,cardiovascular,,,,
+245,Salto a la cuerda alternando los pies,https://youtu.be/Hc78KI1IF6Q,cardiovascular,,,,
+246,Salto a la cuerda con los dos pies,https://youtu.be/FRBAh5-V04k,cardiovascular,,,,
+247,Rutina de estiramiento ára todo el cuerpo,https://youtu.be/uYWh03gO9DI,cardiovascular,,,,
+248,Running,,cardiovascular,,,,
+249,Caminata rapida,,cardiovascular,,,,
+250,Caminar,,cardiovascular,,,,
+251,Bicicleta estatica,,cardiovascular,,,,
+252,Eliptica,,cardiovascular,,,,
+253,bicicleta de aire,,cardiovascular,,,,
+254,sombras en boxeo,,cardiovascular,,,,
+255,Bailar,,cardiovascular,,,,
+256,"Steps ",,cardiovascular,,,,
+257,Patinar,,cardiovascular,,,,
+258,Tennis,,cardiovascular,,,,
+259,Padel,,cardiovascular,,,,
+260,Futbol,,cardiovascular,,,,
