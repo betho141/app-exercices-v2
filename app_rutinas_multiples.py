@@ -62,7 +62,7 @@ if modo == "Usuario":
         df_rutinas = obtener_rutinas_usuario(nombre_usuario)
         if not df_rutinas.empty:
             rutina_seleccionada = st.selectbox("Selecciona una rutina", df_rutinas["nombre_rutina"])
-            id_rutina = df_rutinas[df_rutinas["nombre_rutina"] == rutina_seleccionada]["id_rutina"].values[0]
+            id_rutina = int(df_rutinas[df_rutinas["nombre_rutina"] == rutina_seleccionada]["id_rutina"].values[0])
             df_detalle = obtener_detalle_rutina(id_rutina)
             df_final = df_detalle.merge(df_ejercicios, left_on="id_ejercicio", right_on="id")
             for _, row in df_final.iterrows():
@@ -115,10 +115,20 @@ elif modo == "Administrador":
 
         if st.button("Guardar nueva rutina"):
             try:
-                # Insertar nueva rutina
-                cur.execute("INSERT INTO rutinas (nombre_clave, nombre_rutina, fecha_creacion) VALUES (%s, %s, %s) RETURNING id_rutina",
-                            (usuario_seleccionado, nombre_rutina, datetime.now()))
-                id_rutina = cur.fetchone()[0]
+                cur.execute("""
+                    SELECT id_rutina FROM rutinas
+                    WHERE nombre_clave = %s AND nombre_rutina = %s
+                """, (usuario_seleccionado, nombre_rutina))
+                resultado = cur.fetchone()
+                
+                if resultado:
+                    id_rutina = resultado[0]  # Ya existe, usarlo
+                else:
+                    cur.execute("""
+                        INSERT INTO rutinas (nombre_clave, nombre_rutina, fecha_creacion)
+                        VALUES (%s, %s, %s) RETURNING id_rutina
+                    """, (usuario_seleccionado, nombre_rutina, datetime.now()))
+                    id_rutina = cur.fetchone()[0]
 
                 # Insertar ejercicios asociados
                 for nombre_ejercicio in ejercicios_seleccionados:
