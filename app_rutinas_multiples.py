@@ -101,7 +101,14 @@ elif modo == "Administrador":
         nombre_rutina = st.text_input("Nombre de la nueva rutina")
 
         zona_filtro = st.selectbox("Filtrar por zona corporal", ["Todas"] + sorted(df_ejercicios["zona_corporal"].dropna().unique()))
-        implemento_filtro = st.selectbox("Filtrar por implemento", ["Todos"] + sorted(df_ejercicios["implemento"].dropna().unique()))
+        # Filtrar primero por zona seleccionada para obtener los implementos disponibles en esa zona
+        if zona_filtro != "Todas":
+            implementos_filtrados = df_ejercicios[df_ejercicios["zona_corporal"] == zona_filtro]["implemento"].dropna().unique()
+        else:
+            implementos_filtrados = df_ejercicios["implemento"].dropna().unique()
+        
+        implemento_filtro = st.selectbox("Filtrar por implemento", ["Todos"] + sorted(implementos_filtrados))
+        # implemento_filtro = st.selectbox("Filtrar por implemento", ["Todos"] + sorted(df_ejercicios["implemento"].dropna().unique()))
 
         df_filtrado = df_ejercicios.copy()
         if zona_filtro != "Todas":
