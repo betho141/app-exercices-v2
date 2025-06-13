@@ -4,6 +4,8 @@ import psycopg2
 import pandas as pd
 from datetime import datetime
 from PIL import Image
+import base64
+
 
 # --- CONEXIÓN A SUPABASE ---
 def get_connection():
@@ -18,9 +20,23 @@ def get_connection():
 # --- CONFIG STREAMLIT ---
 st.set_page_config(page_title="App Rutinas Supabase", layout="wide")
 
-# --- Mostrar logo al inicio ---
-logo = Image.open("logo.jpg")
-st.image(logo, width=250)  # Puedes ajustar el ancho
+# Cargar imagen y convertirla en base64
+def get_base64_of_bin_file(bin_file):
+    with open(bin_file, 'rb') as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+
+logo_path = "logo.jpg"
+logo_base64 = get_base64_of_bin_file(logo_path)
+
+st.markdown(
+    f"""
+    <div style="text-align: center;">
+        <img src="data:image/png;base64,{logo_base64}" width="250"/>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # --- CARGA DE EJERCICIOS ---
 @st.cache_data
