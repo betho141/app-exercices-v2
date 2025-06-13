@@ -25,7 +25,7 @@ st.markdown(
     """
     <style>
     body {
-        background-color: rgb(16, 14, 15); /* Cambia aquí el color RGB que desees */
+        background-color: rgb(0, 0, 0); /* Cambia aquí el color RGB que desees */
     }
     </style>
     """,
