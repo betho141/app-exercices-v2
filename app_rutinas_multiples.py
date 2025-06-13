@@ -32,7 +32,7 @@ logo_base64 = get_base64_of_bin_file(logo_path)
 st.markdown(
     f"""
     <div style="text-align: center;">
-        <img src="data:image/png;base64,{logo_base64}" width="250"/>
+        <img src="data:image/png;base64,{logo_base64}" width="500"/>
     </div>
     """,
     unsafe_allow_html=True
