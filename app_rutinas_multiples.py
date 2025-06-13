@@ -20,6 +20,18 @@ def get_connection():
 # --- CONFIG STREAMLIT ---
 st.set_page_config(page_title="App Rutinas Supabase", layout="wide")
 
+# --- CAMBIAR FONDO DE LA PÁGINA (RGB) ---
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: rgb(16, 14, 15); /* Cambia aquí el color RGB que desees */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Cargar imagen y convertirla en base64
 def get_base64_of_bin_file(bin_file):
     with open(bin_file, 'rb') as f:
