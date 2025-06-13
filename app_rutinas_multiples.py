@@ -3,6 +3,7 @@ import streamlit as st
 import psycopg2
 import pandas as pd
 from datetime import datetime
+from PIL import Image
 
 # --- CONEXIÓN A SUPABASE ---
 def get_connection():
