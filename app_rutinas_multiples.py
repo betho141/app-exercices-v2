@@ -17,6 +17,10 @@ def get_connection():
 # --- CONFIG STREAMLIT ---
 st.set_page_config(page_title="App Rutinas Supabase", layout="wide")
 
+# --- Mostrar logo al inicio ---
+logo = Image.open("logo.jpg")
+st.image(logo, width=250)  # Puedes ajustar el ancho
+
 # --- CARGA DE EJERCICIOS ---
 @st.cache_data
 def cargar_ejercicios():
