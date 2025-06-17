@@ -241,9 +241,9 @@ elif modo == "Administrador":
                             conn.rollback()
                             st.error(f"Error al eliminar ejercicio: {e}")
     
-                            except Exception as e:
-                                conn.rollback()
-                                st.error(f"Error al eliminar ejercicio: {e}")
+                            # except Exception as e:
+                            #     conn.rollback()
+                            #     st.error(f"Error al eliminar ejercicio: {e}")
 
             st.markdown("#### ➕ Agregar nuevos ejercicios")
             zona_mod = st.selectbox("Filtrar por zona corporal", ["Todas"] + sorted(df_ejercicios["zona_corporal"].dropna().unique()), key="zona_mod")
