@@ -226,7 +226,7 @@ elif modo == "Administrador":
                     if st.button(f"❌ Eliminar", key=f"del_{row['id_ejercicio']}"):
                         try:
                             cur = conn.cursor()
-                            st.experimental_rerun()
+                            st.rerun()
                         except Exception as e:
                             st.error(f"Error al eliminar ejercicio: {e}")
 
