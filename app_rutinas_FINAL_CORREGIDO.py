@@ -206,7 +206,10 @@ elif modo == "Administrador":
 
         usuario_modificar = st.selectbox("Selecciona usuario para modificar", usuarios, key="modificar_rutina")
         df_rutinas_usuario = obtener_rutinas_usuario(usuario_modificar)
+        st.write("Usuario:", usuario_modificar)
+        st.write("Rutinas encontradas:", df_rutinas_usuario)
 
+        
         if not df_rutinas_usuario.empty:
             rutina_modificar = st.selectbox("Selecciona rutina", df_rutinas_usuario["nombre_rutina"], key="select_rutina")
             id_rutina_mod = int(df_rutinas_usuario[df_rutinas_usuario["nombre_rutina"] == rutina_modificar]["id_rutina"].values[0])
