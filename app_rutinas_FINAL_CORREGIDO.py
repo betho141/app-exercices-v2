@@ -272,22 +272,19 @@ elif modo == "Administrador":
                         id_ej = int(df_ejercicios[df_ejercicios["nombre"] == row["Ejercicio"]]["id"].values[0])
                         if id_ej in ids_existentes:
                             continue
-                        cur = conn.cursor()
+                        rep = int(row["N° Repeticiones"])
+                        ser = int(row["N° Series"])
+                        cur.execute(
+                            "INSERT INTO detalle_rutina (id_rutina, id_ejercicio, repeticiones, series) VALUES (%s, %s, %s, %s)",
+                            (id_rutina_mod, id_ej, rep, ser)
+                        )
+                        count_agregados += 1
                     conn.commit()
                     if count_agregados > 0:
                         st.success(f"{count_agregados} ejercicio(s) agregado(s) exitosamente.")
                         st.experimental_rerun()
                     else:
                         st.info("No se agregaron nuevos ejercicios (ya estaban en la rutina).")
-                except Exception as e:
-                    conn.rollback()
-                    st.error("Error al agregar ejercicios: " + str(e))
-                    conn.commit()
-                    if count_agregados > 0:
-                        st.success(f"{count_agregados} ejercicio(s) agregado(s) exitosamente.")
-                        st.experimental_rerun()
-                    else:
-                        st.info("No se agregaron nuevos ejercicios (posiblemente ya estaban en la rutina).")
                 except Exception as e:
                     conn.rollback()
                     st.error("Error al agregar ejercicios: " + str(e))
