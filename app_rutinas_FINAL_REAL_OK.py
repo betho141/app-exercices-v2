@@ -172,7 +172,7 @@ elif modo == "Administrador":
                     cur.execute("""
                         SELECT id_rutina FROM rutinas
                         WHERE nombre_clave = %s AND nombre_rutina = %s
-                    """, (usuario_seleccionado, nombre_rutina))
+                        """, (usuario_seleccionado, nombre_rutina))
                     resultado = cur.fetchone()
 
                     if resultado:
@@ -181,7 +181,7 @@ elif modo == "Administrador":
                         cur.execute("""
                             INSERT INTO rutinas (nombre_clave, nombre_rutina, fecha_creacion)
                             VALUES (%s, %s, %s) RETURNING id_rutina
-                        """, (usuario_seleccionado, nombre_rutina, datetime.now()))
+                            """, (usuario_seleccionado, nombre_rutina, datetime.now()))
                         id_rutina = cur.fetchone()[0]
 
                     for _, row in edited_tabla.iterrows():
@@ -190,7 +190,7 @@ elif modo == "Administrador":
                         ser = int(row["N° Series"])
                         cur.execute("""
                             VALUES (%s, %s, %s, %s)
-                        """, (id_rutina, id_ej, rep, ser))
+                            """, (id_rutina, id_ej, rep, ser))
 
                     conn.commit()
                     st.success("Rutina guardada exitosamente.")
@@ -225,7 +225,7 @@ elif modo == "Administrador":
                             cur.execute("""
                                 DELETE FROM detalle_rutina
                                 WHERE id_rutina = %s AND id_ejercicio = %s
-                            """, (id_rutina_mod, row['id_ejercicio']))
+                                """, (id_rutina_mod, row['id_ejercicio']))
                             conn.commit()
                             st.experimental_rerun()
                         except Exception as e:
@@ -276,7 +276,7 @@ elif modo == "Administrador":
                         cur = conn.cursor()
                         cur.execute("""
                             INSERT INTO detalle_rutina (id_rutina, id_ejercicio, repeticiones, series)
-                        """, (id_rutina_mod, id_ej, int(row["N° Repeticiones"]), int(row["N° Series"])))
+                            """, (id_rutina_mod, id_ej, int(row["N° Repeticiones"]), int(row["N° Series"])))
                         cur.close()
                         count_agregados += 1
                     conn.commit()
@@ -291,7 +291,7 @@ elif modo == "Administrador":
                         cur.execute("""
                             INSERT INTO detalle_rutina (id_rutina, id_ejercicio, repeticiones, series)
                             VALUES (%s, %s, %s, %s)
-                        """, (id_rutina_mod, id_ej, int(row["N° Repeticiones"]), int(row["N° Series"])))
+                            """, (id_rutina_mod, id_ej, int(row["N° Repeticiones"]), int(row["N° Series"])))
                         cur.close()
                         count_agregados += 1
                     conn.commit()
