@@ -228,22 +228,22 @@ elif modo == "Administrador":
                     st.markdown(f"• **{row['nombre']}** | Reps: {row['repeticiones']} | Series: {row['series']}")
                 with col2:
                     if st.button(f"❌ Eliminar", key=f"del_{row['id_ejercicio']}"):
-                    try:
-                        with st.spinner("Eliminando ejercicio..."):
-                            cur.execute(
-                                "DELETE FROM detalle_rutina WHERE id_rutina = %s AND id_ejercicio = %s",
-                                (id_rutina_mod, row['id_ejercicio'])
-                            )
-                            conn.commit()
-                            st.success(f"{row['nombre']} eliminado")
-                            st.session_state["refresh_ejercicios"] = True
-                    except Exception as e:
-                        conn.rollback()
-                        st.error(f"Error al eliminar ejercicio: {e}")
-
+                        try:
+                            with st.spinner("Eliminando ejercicio..."):
+                                cur.execute(
+                                    "DELETE FROM detalle_rutina WHERE id_rutina = %s AND id_ejercicio = %s",
+                                    (id_rutina_mod, row['id_ejercicio'])
+                                )
+                                conn.commit()
+                                st.success(f"{row['nombre']} eliminado")
+                                st.session_state["refresh_ejercicios"] = True
                         except Exception as e:
                             conn.rollback()
                             st.error(f"Error al eliminar ejercicio: {e}")
+    
+                            except Exception as e:
+                                conn.rollback()
+                                st.error(f"Error al eliminar ejercicio: {e}")
 
             st.markdown("#### ➕ Agregar nuevos ejercicios")
             zona_mod = st.selectbox("Filtrar por zona corporal", ["Todas"] + sorted(df_ejercicios["zona_corporal"].dropna().unique()), key="zona_mod")
