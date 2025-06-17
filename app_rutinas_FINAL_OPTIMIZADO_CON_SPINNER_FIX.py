@@ -110,7 +110,7 @@ elif modo == "Administrador":
     if password == "dioses123":
         if "refresh_ejercicios" in st.session_state and st.session_state["refresh_ejercicios"]:
             st.session_state["refresh_ejercicios"] = False
-            st.experimental_rerun()
+            st.rerun()
 
         st.title("Panel de Administrador")
         conn = get_connection()
@@ -296,7 +296,7 @@ elif modo == "Administrador":
                     conn.commit()
                     if count_agregados > 0:
                         st.success(f"{count_agregados} ejercicio(s) agregado(s) exitosamente.")
-                        st.experimental_rerun()
+                        st.rerun()
                     else:
                         st.info("No se agregaron nuevos ejercicios (ya estaban en la rutina).")
                 except Exception as e:
