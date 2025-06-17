@@ -169,12 +169,37 @@ elif modo == "Administrador":
         if st.button("Guardar nueva rutina"):
             if not edited_tabla.empty:
                 try:
+                    cur.execute("""
+                        SELECT id_rutina FROM rutinas
+                        WHERE nombre_clave = %s AND nombre_rutina = %s
+                    """, (usuario_seleccionado, nombre_rutina))
+                    resultado = cur.fetchone()
+        
+                    if resultado:
+                        id_rutina = resultado[0]
+                    else:
+                        cur.execute("""
+                            INSERT INTO rutinas (nombre_clave, nombre_rutina, fecha_creacion)
+                            VALUES (%s, %s, %s) RETURNING id_rutina
+                        """, (usuario_seleccionado, nombre_rutina, datetime.now()))
+                        id_rutina = cur.fetchone()[0]
+        
+                    for _, row in edited_tabla.iterrows():
+                        id_ej = int(df_ejercicios[df_ejercicios["nombre"] == row["Ejercicio"]]["id"].values[0])
+                        rep = int(row["N° Repeticiones"])
+                        ser = int(row["N° Series"])
+                        cur.execute("""
+                            INSERT INTO detalle_rutina (id_rutina, id_ejercicio, repeticiones, series)
+                            VALUES (%s, %s, %s, %s)
+                        """, (id_rutina, id_ej, rep, ser))
+        
+                    conn.commit()
                     st.success("Rutina guardada exitosamente.")
                 except Exception as e:
                     conn.rollback()
                     st.error("Error al guardar la rutina: " + str(e))
 
-        
+    
         # --- AGREGAR/VER/ELIMINAR EJERCICIOS EN RUTINA EXISTENTE ---
         st.markdown("---")
         st.markdown("### 🛠️ Modificar rutina existente")
