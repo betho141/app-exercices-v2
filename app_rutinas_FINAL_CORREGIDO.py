@@ -20,16 +20,7 @@ st.set_page_config(page_title="App Rutinas Supabase", layout="wide")
 
 from PIL import Image
 
-# with st.container():
-#     st.markdown("<br><br>", unsafe_allow_html=True)  # Espacio arriba
-#     col_center = st.columns([1, 2, 1])[1]  # Solo tomamos la columna central
-#     with col_center:
-#         st.image("logo.jpg", width=250)
-#         st.markdown(
-#             "<div style='text-align:center; font-size: 20px; color: white;'>Bienvenido a la App de Rutinas</div>",
-#             unsafe_allow_html=True
-#         )
-ruta_logo = 'https://github.com/betho141/app-exercices-v2/blob/main/logo.jpg'
+ruta_logo = 'https://raw.githubusercontent.com/betho141/imagenes/main/logo.jpg'
 st.markdown("""
     <div style='text-align: center; padding-top: 30px;'>
         <img src=ruta_logo width='250'/>
