@@ -303,8 +303,8 @@ elif modo == "Administrador":
                     except Exception as e:
                         conn.rollback()
                         st.error("Error al agregar ejercicios: " + str(e))
-        else:
-            st.info("Este usuario aún no tiene rutinas creadas.")
+            else:
+                st.info("Este usuario aún no tiene rutinas creadas.")
 
         cur.close()
         conn.close()
