@@ -1,11 +1,9 @@
-
 import streamlit as st
 import psycopg2
 import pandas as pd
 from datetime import datetime
 from PIL import Image
 import base64
-
 
 # --- CONEXIÓN A SUPABASE ---
 def get_connection():
@@ -20,9 +18,6 @@ def get_connection():
 # --- CONFIG STREAMLIT ---
 st.set_page_config(page_title="App Rutinas Supabase", layout="wide")
 
-# Mostrar imagen inicial en el centro
-# st.image("logo.jpg", width=400, caption="Bienvenido a la App de Rutinas", use_container_width=False)
-# --- Mostrar logo centrado arriba con texto ---
 from PIL import Image
 img = Image.open("logo.jpg")
 st.image(img, width=300)
@@ -31,11 +26,6 @@ st.markdown(
     "<div style='text-align:center; margin-top: -30px; font-size: 18px; color: white;'>Bienvenido a la App de Rutinas</div>",
     unsafe_allow_html=True
 )
-
-# --- Menú lateral para elegir modo ---
-# modo = st.sidebar.radio("Selecciona el modo:", ["Usuario", "Administrador"])
-
-
 
 # --- CAMBIAR FONDO DE LA PÁGINA (RGB) ---
 st.markdown(
@@ -48,24 +38,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-# # Cargar imagen y convertirla en base64
-# def get_base64_of_bin_file(bin_file):
-#     with open(bin_file, 'rb') as f:
-#         data = f.read()
-#     return base64.b64encode(data).decode()
-
-# logo_path = "logo.jpg"
-# logo_base64 = get_base64_of_bin_file(logo_path)
-
-# st.markdown(
-#     f"""
-#     <div style="text-align: center;">
-#         <img src="data:image/png;base64,{logo_base64}" width="500"/>
-#     </div>
-#     """,
-#     unsafe_allow_html=True
-# )
 
 # --- CARGA DE EJERCICIOS ---
 @st.cache_data
