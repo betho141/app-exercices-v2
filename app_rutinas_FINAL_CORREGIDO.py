@@ -288,5 +288,5 @@ elif modo == "Administrador":
 
         cur.close()
         conn.close()
-    else:
+    elif password != "":
         st.warning("Contraseña incorrecta")
