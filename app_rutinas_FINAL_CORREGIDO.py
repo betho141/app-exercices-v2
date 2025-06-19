@@ -20,6 +20,9 @@ def get_connection():
 # --- CONFIG STREAMLIT ---
 st.set_page_config(page_title="App Rutinas Supabase", layout="wide")
 
+# Mostrar imagen inicial en el centro
+st.image("logo.jpg", width=400, caption="Bienvenido a la App de Rutinas", use_column_width=False)
+
 # --- CAMBIAR FONDO DE LA PÁGINA (RGB) ---
 st.markdown(
     """
