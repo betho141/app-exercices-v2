@@ -29,7 +29,7 @@ from PIL import Image
 #             "<div style='text-align:center; font-size: 20px; color: white;'>Bienvenido a la App de Rutinas</div>",
 #             unsafe_allow_html=True
 #         )
-ruta_logo = 'https://github.com/betho141/app-exercices-v2/blob/main/logo.jpg?raw=true'
+ruta_logo = 'https://github.com/betho141/app-exercices-v2/blob/main/logo.jpg'
 st.markdown("""
     <div style='text-align: center; padding-top: 30px;'>
         <img src=ruta_logo width='250'/>
