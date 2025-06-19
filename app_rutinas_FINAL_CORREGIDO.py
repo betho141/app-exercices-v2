@@ -21,9 +21,9 @@ st.set_page_config(page_title="App Rutinas Supabase", layout="wide")
 from PIL import Image
 
 ruta_logo = 'https://raw.githubusercontent.com/betho141/imagenes/main/logo.jpg'
-st.markdown("""
+st.markdown(f"""
     <div style='text-align: center; padding-top: 30px;'>
-        <img src=ruta_logo width='250'/>
+        <img src='{ruta_logo}' width='250'/>
         <h3 style='color: white;'>Bienvenido a la App de Rutinas</h3>
     </div>
 """, unsafe_allow_html=True)
