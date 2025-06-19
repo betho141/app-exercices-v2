@@ -115,7 +115,7 @@ elif modo == "Administrador":
             if st.button("🛠️ Modificar rutina existente", use_container_width=True):
                 st.session_state.opcion_admin = "Modificar rutina existente"
         
-        st.title("Panel de Administrador")
+        # st.title("Panel de Administrador")
         conn = get_connection()
         cur = conn.cursor()
 
