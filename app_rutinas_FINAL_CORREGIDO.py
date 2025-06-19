@@ -287,7 +287,7 @@ elif modo == "Administrador":
                     conn.commit()
                     if count_agregados > 0:
                         st.success(f"{count_agregados} ejercicio(s) agregado(s) exitosamente.")
-                        st.experimental_rerun()
+                        st.rerun()
                     else:
                         st.info("No se agregaron nuevos ejercicios (ya estaban en la rutina).")
                 except Exception as e:
