@@ -21,7 +21,21 @@ def get_connection():
 st.set_page_config(page_title="App Rutinas Supabase", layout="wide")
 
 # Mostrar imagen inicial en el centro
-st.image("logo.jpg", width=400, caption="Bienvenido a la App de Rutinas", use_container_width=False)
+# st.image("logo.jpg", width=400, caption="Bienvenido a la App de Rutinas", use_container_width=False)
+# --- Mostrar logo centrado arriba con texto ---
+from PIL import Image
+img = Image.open("logo.jpg")
+st.image(img, width=300)
+
+st.markdown(
+    "<div style='text-align:center; margin-top: -30px; font-size: 18px; color: white;'>Bienvenido a la App de Rutinas</div>",
+    unsafe_allow_html=True
+)
+
+# --- Menú lateral para elegir modo ---
+modo = st.sidebar.radio("Selecciona el modo:", ["Usuario", "Administrador"])
+
+
 
 # --- CAMBIAR FONDO DE LA PÁGINA (RGB) ---
 st.markdown(
