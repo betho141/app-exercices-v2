@@ -33,7 +33,7 @@ st.markdown(
 )
 
 # --- Menú lateral para elegir modo ---
-modo = st.sidebar.radio("Selecciona el modo:", ["Usuario", "Administrador"])
+# modo = st.sidebar.radio("Selecciona el modo:", ["Usuario", "Administrador"])
 
 
 
