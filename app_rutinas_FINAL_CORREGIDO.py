@@ -27,8 +27,9 @@ from PIL import Image
 #     unsafe_allow_html=True
 # )
 with st.container():
-    col1, col2, col3 = st.columns([1, 2, 1])
-    with col2:
+    st.markdown("<br><br>", unsafe_allow_html=True)  # Espacio arriba
+    col_center = st.columns([1, 2, 1])[1]  # Solo tomamos la columna central
+    with col_center:
         st.image("logo.jpg", width=250)
         st.markdown(
             "<div style='text-align:center; font-size: 20px; color: white;'>Bienvenido a la App de Rutinas</div>",
