@@ -19,13 +19,21 @@ def get_connection():
 st.set_page_config(page_title="App Rutinas Supabase", layout="wide")
 
 from PIL import Image
-img = Image.open("logo.jpg")
-st.image(img, width=300)
+# img = Image.open("logo.jpg")
+# st.image(img, width=300)
 
-st.markdown(
-    "<div style='text-align:center; margin-top: -30px; font-size: 18px; color: white;'>Bienvenido a la App de Rutinas</div>",
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     "<div style='text-align:center; margin-top: -30px; font-size: 18px; color: white;'>Bienvenido a la App de Rutinas</div>",
+#     unsafe_allow_html=True
+# )
+with st.container():
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        st.image("logo.jpg", width=250)
+        st.markdown(
+            "<div style='text-align:center; font-size: 20px; color: white;'>Bienvenido a la App de Rutinas</div>",
+            unsafe_allow_html=True
+        )
 
 # --- CAMBIAR FONDO DE LA PÁGINA (RGB) ---
 st.markdown(
