@@ -8,8 +8,8 @@ import base64
 # --- CONEXIÓN A SUPABASE ---
 def get_connection():
     return psycopg2.connect(
-        host="db.dmbdxjoomiyifzvkgskr.supabase.co",
-        dbname="postgres",
+        host="aws-0-us-east-2.pooler.supabase.com",
+        dbname="videos_ejercicios",
         user="postgres",
         password="Dibujolavida141",
         port=6543
