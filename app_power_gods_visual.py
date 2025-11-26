@@ -12,7 +12,7 @@ def get_connection():
         dbname="postgres",
         user="postgres",
         password="Dibujolavida141",
-        port=5432
+        port=6543
     )
 
 # --- CONFIG STREAMLIT ---
