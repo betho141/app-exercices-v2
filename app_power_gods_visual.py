@@ -6,15 +6,23 @@ from PIL import Image
 import base64
 
 # --- CONEXIÓN A SUPABASE ---
+# def get_connection():
+#     return psycopg2.connect(
+#         host="aws-0-us-east-2.pooler.supabase.com",
+#         dbname="videos_ejercicios",
+#         user="postgres",
+#         password="Dibujolavida141",
+#         port=6543
+#     )
+
 def get_connection():
     return psycopg2.connect(
-        host="aws-0-us-east-2.pooler.supabase.com",
-        dbname="videos_ejercicios",
-        user="postgres",
-        password="Dibujolavida141",
-        port=6543
+        host=st.secrets["DB_HOST"],
+        dbname=st.secrets["DB_NAME"],
+        user=st.secrets["DB_USER"],
+        password=st.secrets["DB_PASSWORD"],
+        port=st.secrets["DB_PORT"]
     )
-
 # --- CONFIG STREAMLIT ---
 st.set_page_config(page_title="App Rutinas Supabase", layout="wide")
 
