@@ -148,7 +148,30 @@ else:
 
         with st.expander(f"▶ {row['nombre']}", expanded=False):
 
-            st.video(row["url"])
+            # st.video(row["url"])
+            url = row["url"]
+            
+            # Convertir URL a formato EMBED de YouTube
+            embed_url = url.replace("watch?v=", "embed/") \
+                           .replace("youtu.be/", "www.youtube.com/embed/") \
+                           .replace("youtube.com/shorts/", "youtube.com/embed/")
+
+            # Mostrar video con tamaño personalizado
+            st.markdown(
+                f"""
+                <div style="display: flex; justify-content: center; padding-top:10px;">
+                    <iframe 
+                        width="420" 
+                        height="236"
+                        src="{embed_url}"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 
             st.write(f"**Zona corporal:** {row['zona_corporal']}")
             st.write(f"**Implemento:** {row['implemento']}")
