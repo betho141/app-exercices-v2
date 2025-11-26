@@ -135,6 +135,9 @@ if musculo != "Todos":
 # LISTA DE RESULTADOS
 # ============================
 
+# Mostrar solo ejercicios con video disponible
+df_filtrado = df_filtrado[df_filtrado["url"].str.startswith("http", na=False)]
+
 st.markdown("---")
 st.subheader("📋 Lista de Ejercicios")
 
