@@ -22,7 +22,7 @@ def cargar_ejercicios():
     cur = conn.cursor()
     cur.execute("""
         SELECT id, nombre, url, zona_corporal, implemento, 
-               articularidad, lateralidad, musculo
+               patron_movimiento
         FROM ejercicios
         ORDER BY nombre
     """)
@@ -71,7 +71,6 @@ st.markdown("## 🔍 Filtros y Búsqueda")
 buscar_nombre = st.text_input("Buscar ejercicio por nombre:", "")
 
 col1, col2, col3 = st.columns(3)
-col4, col5 = st.columns(2)
 
 with col1:
     zona = st.selectbox(
@@ -86,21 +85,9 @@ with col2:
     )
 
 with col3:
-    articularidad = st.selectbox(
-        "Articularidad:",
-        ["Todas"] + sorted(df["articularidad"].dropna().unique())
-    )
-
-with col4:
-    lateralidad = st.selectbox(
-        "Lateralidad:",
-        ["Todas"] + sorted(df["lateralidad"].dropna().unique())
-    )
-
-with col5:
-    musculo = st.selectbox(
-        "Músculo:",
-        ["Todos"] + sorted(df["musculo"].dropna().unique())
+    patron = st.selectbox(
+        "Patrón de movimiento:",
+        ["Todos"] + sorted(df["patron_movimiento"].dropna().unique())
     )
 
 
@@ -121,14 +108,17 @@ if zona != "Todas":
 if implemento != "Todos":
     df_filtrado = df_filtrado[df_filtrado["implemento"] == implemento]
 
-if articularidad != "Todas":
-    df_filtrado = df_filtrado[df_filtrado["articularidad"] == articularidad]
+if patron != "Todos":
+    df_filtrado = df_filtrado[df_filtrado["patron_movimiento"] == patron]
 
-if lateralidad != "Todas":
-    df_filtrado = df_filtrado[df_filtrado["lateralidad"] == lateralidad]
+# if articularidad != "Todas":
+#     df_filtrado = df_filtrado[df_filtrado["articularidad"] == articularidad]
 
-if musculo != "Todos":
-    df_filtrado = df_filtrado[df_filtrado["musculo"] == musculo]
+# if lateralidad != "Todas":
+#     df_filtrado = df_filtrado[df_filtrado["lateralidad"] == lateralidad]
+
+# if musculo != "Todos":
+#     df_filtrado = df_filtrado[df_filtrado["musculo"] == musculo]
 
 
 # ============================
@@ -175,6 +165,7 @@ else:
 
             st.write(f"**Zona corporal:** {row['zona_corporal']}")
             st.write(f"**Implemento:** {row['implemento']}")
-            st.write(f"**Articularidad:** {row['articularidad']}")
-            st.write(f"**Lateralidad:** {row['lateralidad']}")
-            st.write(f"**Músculo:** {row['musculo']}")
+            st.write(f"**Patrón de movimiento:** {row['patron_movimiento']}")
+            # st.write(f"**Articularidad:** {row['articularidad']}")
+            # st.write(f"**Lateralidad:** {row['lateralidad']}")
+            # st.write(f"**Músculo:** {row['musculo']}")
